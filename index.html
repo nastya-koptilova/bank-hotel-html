@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bank Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti&family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
     <header class="header">
@@ -87,14 +94,14 @@
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about">
         <div class="wrapper">
-          <div class="about-us__main-container">
-            <!-- <img class="about-us__main-img"></img> -->
-            <div class="about-us__main-text-container">
-              <h2 class="about-us__heading">About US</h2>
-              <h4 class="about-us__title">High quality</h4>
-              <p class="about-us__text">
+          <div class="about__main-container">
+            <!-- <img class="about__main-img"></img> -->
+            <div class="about__main-text-container">
+              <h2 class="about__heading">About US</h2>
+              <h4 class="about__title">High quality</h4>
+              <p class="about__text">
                 The five-star Bank Hotel was reopened to visitors in 2016. The
                 building was renovated and modernized to meet the expectations
                 of the most demanding guests. We offer luxurious rooms, numerous
@@ -102,10 +109,10 @@
               </p>
             </div>
           </div>
-          <div class="about-us__descr-container">
-            <svg class="about-us__quality-icon quality-icon"></svg>
-            <!-- <img class="about-us__descr_img"></img> -->
-            <button class="about-us__down-btn" type="button">
+          <div class="about__descr-container">
+            <svg class="about__quality-icon quality-icon"></svg>
+            <!-- <img class="about__descr_img"></img> -->
+            <button class="about__down-btn" type="button">
               Rooms and apartments
             </button>
           </div>
@@ -148,89 +155,87 @@
           </div>
         </div>
       </section>
-      <section class="our-facilities">
+      <section class="facilities">
         <div class="wrapper">
-          <div class="our-facilities__heading-container">
-            <p class="our-facilities__heading-descr">Art & Congress hall</p>
-            <h2 class="our-facilities__heading">Our faci lities</h2>
-            <svg class="our-facilities__quality-icon quality-icon"></svg>
-            <!-- <img class="our-facilities__heading-img"></img> -->
+          <div class="facilities__heading-container">
+            <p class="facilities__heading-descr">Art & Congress hall</p>
+            <h2 class="facilities__heading">Our faci lities</h2>
+            <svg class="facilities__quality-icon quality-icon"></svg>
+            <!-- <img class="facilities__heading-img"></img> -->
           </div>
-          <div class="our-facilities__descr">
-            <!-- <img class="our-facilities__descr-img"></img> -->
-            <p class="our-facilities__descr-text">
+          <div class="facilities__descr">
+            <!-- <img class="facilities__descr-img"></img> -->
+            <p class="facilities__descr-text">
               Bank Hotel offers you a wide range of additional services and
               facilities. Visit our restaurant to try exclusive meals, book a
               conference hall to organize a business meeting, or relax in the
               art-bar.
             </p>
           </div>
-          <ul class="our-facilities__list">
-            <li class="our-facilities__item open">
-              <button class="our-facilities__btn open" type="button"></button>
-              <div class="our-facilities__item-descr open">
-                <p class="our-facilities__number open">01</p>
-                <h3 class="our-facilities__item-title open">Ice restaurant</h3>
-                <p class="our-facilities__item-text open">
+          <ul class="facilities__list">
+            <li class="facilities__item open">
+              <button class="facilities__btn open" type="button"></button>
+              <div class="facilities__item-descr open">
+                <p class="facilities__number open">01</p>
+                <h3 class="facilities__item-title open">Ice restaurant</h3>
+                <p class="facilities__item-text open">
                   The hotel’s exclusive infrastructure is complemented by the
                   unique atmosphere of the Safe Restaurant. Author’s menu,
                   extensive wine card, and live music will set you for the
                   correct mood.
                 </p>
               </div>
-              <!-- <img class="our-facilities__item-img open"></img> -->
+              <!-- <img class="facilities__item-img open"></img> -->
             </li>
-            <li class="our-facilities__item closed">
-              <!-- <img class="our-facilities__item-img closed"></img> -->
-              <p class="our-facilities__number closed">02</p>
-              <h3 class="our-facilities__item-title closed">Conference Hall</h3>
-              <button class="our-facilities__btn closed" type="button"></button>
+            <li class="facilities__item closed">
+              <!-- <img class="facilities__item-img closed"></img> -->
+              <p class="facilities__number closed">02</p>
+              <h3 class="facilities__item-title closed">Conference Hall</h3>
+              <button class="facilities__btn closed" type="button"></button>
             </li>
-            <li class="our-facilities__item closed">
-              <!-- <img class="our-facilities__item-img closed"></img> -->
-              <p class="our-facilities__number closed">03</p>
-              <h3 class="our-facilities__item-title closed">
-                Wine Bar “Reserve”
-              </h3>
-              <button class="our-facilities__btn closed" type="button"></button>
+            <li class="facilities__item closed">
+              <!-- <img class="facilities__item-img closed"></img> -->
+              <p class="facilities__number closed">03</p>
+              <h3 class="facilities__item-title closed">Wine Bar “Reserve”</h3>
+              <button class="facilities__btn closed" type="button"></button>
             </li>
           </ul>
         </div>
       </section>
-      <section class="best-apartments">
+      <section class="apartments">
         <div class="wrapper">
-          <div class="best-apartments__container">
-            <h2 class="best-apartments__heading">Best apartments</h2>
-            <p class="best-apartments__descr">
+          <div class="apartments__container">
+            <h2 class="apartments__heading">Best apartments</h2>
+            <p class="apartments__descr">
               All room decoration was made with ecological certified and safe
               materials.
             </p>
           </div>
         </div>
       </section>
-      <section class="our-gallery">
+      <section class="gallery">
         <div class="wrapper">
-          <div class="our-gallery__header">
-            <p class="our-gallery__header-text">Art & Congress hall</p>
-            <svg class="our-gallery__icon"></svg>
+          <div class="gallery__header">
+            <p class="gallery__header-text">Art & Congress hall</p>
+            <svg class="gallery__icon"></svg>
           </div>
-          <h2 class="our-gallery__heading">our Gallery</h2>
-          <div class="our-gallery__images">
-            <p class="our-gallery__descr">
+          <h2 class="gallery__heading">our Gallery</h2>
+          <div class="gallery__images">
+            <p class="gallery__descr">
               Explore our spacious rooms with the gorgeous view to the
               historical part of the city. Each room has an exclusive interior
               design decorated with modern art pieces that will make your stay
               unforgettable.
             </p>
-            <!-- <img class="our-gallery__img"></img> -->
-            <!-- <img class="our-gallery__img"></img> -->
-            <!-- <img class="our-gallery__img main"></img> -->
-            <!-- <img class="our-gallery__img"></img> -->
-            <!-- <img class="our-gallery__img"></img> -->
-            <p class="our-gallery__text">
+            <!-- <img class="gallery__img"></img> -->
+            <!-- <img class="gallery__img"></img> -->
+            <!-- <img class="gallery__img main"></img> -->
+            <!-- <img class="gallery__img"></img> -->
+            <!-- <img class="gallery__img"></img> -->
+            <p class="gallery__text">
               It is our pleasure to meet your most unrealistic expectations.
             </p>
-            <p class="our-gallery__background-text">
+            <p class="gallery__background-text">
               Bank hotel <span>Bank__hotel©</span> Bank hotel Bank hotel Bank
               hotel Bank hotel Bank hotel Bank hotel
             </p>
