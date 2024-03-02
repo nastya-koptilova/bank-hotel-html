@@ -17,11 +17,11 @@ body {
   background: var(--main-background-color);
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
-.list {
+ul {
   list-style: none;
 }
 
@@ -46,24 +46,24 @@ img {
   width: 100%;
 }
 
-.container {
+.wrapper {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
 }
 @media screen and (min-width: 480px) {
-  .container {
+  .wrapper {
     max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .wrapper {
     max-width: 1024px;
     padding: 0 20px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
+  .wrapper {
     max-width: 1440px;
   }
 }
@@ -84,4 +84,9 @@ img {
 
 .no-scroll {
   overflow: hidden;
+}
+
+.logo__text {
+  font-size: 16px;
+  color: var(--main-text-color);
 }/*# sourceMappingURL=main.css.map */
