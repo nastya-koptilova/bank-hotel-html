@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: "Athiti", sans-serif;
+  font-family: var(--font-family);
   font-size: 18px;
   letter-spacing: 0.04em;
   color: var(--main-text-color);

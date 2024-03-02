@@ -1,16 +1,18 @@
 @import "~node_modules/modern-normalize/modern-normalize.css";
 :root {
+  --font-family: "Athiti", sans-serif;
+  --second-family: "Cinzel", sans-serif;
   --main-background-color: #313f38;
-  --main-text-color: #FFFCF6;
-  --accent-text-color: #FCD043;
-  --description-text-color: #1B3B36;
-  --accent-background-color: #FFFCF6;
+  --main-text-color: #fffcf6;
+  --accent-text-color: #fcd043;
+  --description-text-color: #1b3b36;
+  --accent-background-color: #fffcf6;
   --text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 body {
   margin: 0;
-  font-family: "Athiti", sans-serif;
+  font-family: var(--font-family);
   font-size: 18px;
   letter-spacing: 0.04em;
   color: var(--main-text-color);
@@ -89,4 +91,14 @@ img {
 .logo__text {
   font-size: 16px;
   color: var(--main-text-color);
+}
+
+.hero__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.hero__title_accent {
+  color: var(--accent-text-color);
 }/*# sourceMappingURL=main.css.map */
